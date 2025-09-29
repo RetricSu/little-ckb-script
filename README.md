@@ -9,7 +9,7 @@ Most scripts are written in JavaScript using [ckb-js-vm](https://github.com/nerv
 ### Lock
 
 - [hash-lock](https://github.com/nervosnetwork/docs.nervos.org/tree/develop/examples/dApp/simple-lock): a simple hash-lock script that can be unlocked by providing a preimage
-- [simple-htlc]( a lock script that implements a minimal Hashed-Timelock-Contract on Nervos CKB): a simple htlc script that can be unlocked by providing a preimage or a timeout refund.
+- [simple-htlc](https://github.com/RetricSu/simple-htlc): a simple htlc script that can be unlocked by providing a preimage or a timeout refund.
 
 ### Type
 
