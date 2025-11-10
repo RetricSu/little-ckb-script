@@ -17,6 +17,7 @@ Most scripts are written in JavaScript using [ckb-js-vm](https://github.com/nerv
 - [merkle-point](https://github.com/RetricSu/merkle-point): a simple type script that implement a basic decentralized loyalty point management system using SMT structure where key is the user address and value is the point.
 - [npm5](https://github.com/RetricSu/npm5): a simple type script that validate javascript package info and a CLI tool that use CKB as a code hosting platform for javascript libraries to replace npmjs.com.
 - [ckb-js-pokemon](https://github.com/cryptape/ckb-js-pokemon): A blockchain-based Pokemon NFT collection platform built on CKB, allow users to purchase Pokemon NFTs using PokePoints (custom token system) and build their Pokemon collection with varying rarities and prices.
+- [countdown-cell](https://github.com/tianlitao/ckb_count_down): A lightweight, fun, and extensible on-chain mini-game: each Cell has an expiration block, endBlock. Adding CKB to the Cell extends its expiration time proportionally and records the "last payer". When no further CKB is added, the last payer receives the entire reward.
 
 ## Contributing
 
