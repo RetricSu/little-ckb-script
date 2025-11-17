@@ -11,6 +11,7 @@ Most scripts are written in JavaScript using [ckb-js-vm](https://github.com/nerv
 - [hash-lock](https://github.com/nervosnetwork/docs.nervos.org/tree/develop/examples/dApp/simple-lock): a simple hash-lock script that can be unlocked by providing a preimage
 - [simple-htlc](https://github.com/RetricSu/simple-htlc): a simple htlc script that can be unlocked by providing a preimage or a timeout refund.
 - [spilman-payment](https://github.com/HappySonnyDev/SpilmanPayment): a Spilman payment channel implemented on CKB, used in AI large-model streaming payment scenarios.
+- [join-airdrop](https://github.com/RetricSu/join-airdrop): a simple airdrop-lock contract that requires users to join first in order to get airdrop for a specific UDT token so that the minimal-cell providing problems can be solved.
 
 ### Type
 
