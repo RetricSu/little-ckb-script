@@ -12,13 +12,16 @@ Most scripts are written in JavaScript using [ckb-js-vm](https://github.com/nerv
 - [simple-htlc](https://github.com/RetricSu/simple-htlc): a simple htlc script that can be unlocked by providing a preimage or a timeout refund.
 - [spilman-payment](https://github.com/HappySonnyDev/SpilmanPayment): a Spilman payment channel implemented on CKB, used in AI large-model streaming payment scenarios.
 - [join-airdrop](https://github.com/RetricSu/join-airdrop): a simple airdrop-lock contract that requires users to join first in order to get airdrop for a specific UDT token so that the minimal-cell providing problems can be solved.
+- [countdown-cell](https://github.com/tianlitao/ckb_count_down): A lightweight, fun, and extensible on-chain mini-game: each Cell has an expiration block, endBlock. Adding CKB to the Cell extends its expiration time proportionally and records the "last payer". When no further CKB is added, the last payer receives the entire reward.
+- [fair-launch-cell](https://github.com/tianlitao/ckb_count_down/tree/xudt): A "fair launch" platform: Creators configure and mint xUDT into the Fair Launch Lock, which continuously distributes tokens per block during a preset delay period. Once the delay period ends, the Swap (constant product pool) is activated, enabling users to trade with CKB in the fixed pool according to the k = x * y rule.
+- [auction-cell](https://github.com/tianlitao/ckb_count_down/tree/auction): Anyone can bid CKB to extend this Cell's countdown; when the countdown ends, the last successful bidder can close the Cell and claim its entire capacity as a reward.
+- [bonding-curve-cell](https://github.com/RetricSu/simple-bonding-curve): An automated market making lock script that turns any xUDT token into an automated swap pool. Issuers can create multiple pool cells with this lock script to help ease the concurrency problem.
 
 ### Type
 
 - [merkle-point](https://github.com/RetricSu/merkle-point): a simple type script that implement a basic decentralized loyalty point management system using SMT structure where key is the user address and value is the point.
 - [npm5](https://github.com/RetricSu/npm5): a simple type script that validate javascript package info and a CLI tool that use CKB as a code hosting platform for javascript libraries to replace npmjs.com.
 - [ckb-js-pokemon](https://github.com/cryptape/ckb-js-pokemon): A blockchain-based Pokemon NFT collection platform built on CKB, allow users to purchase Pokemon NFTs using PokePoints (custom token system) and build their Pokemon collection with varying rarities and prices.
-- [countdown-cell](https://github.com/tianlitao/ckb_count_down): A lightweight, fun, and extensible on-chain mini-game: each Cell has an expiration block, endBlock. Adding CKB to the Cell extends its expiration time proportionally and records the "last payer". When no further CKB is added, the last payer receives the entire reward.
 
 ## Contributing
 
